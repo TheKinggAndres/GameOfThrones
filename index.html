@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones Explorer</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<main id="app">
+    <!-- Contenido dinámico -->
+</main>
+
+<aside class="c-nav">
+    <button class="c-nav-item" onclick="mostrarPersonajes()">Personajes</button>
+    <button class="c-nav-item" onclick="mostrarCasas()">Casas</button>
+</aside>
+
+<script src="/JavaScript/apiGot.js"></script>
+<script src="/JavaScript/personajes.js"></script>
+<script src="/JavaScript/casas.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", mostrarPersonajes);
+</script>
+
+</body>
+</html>
