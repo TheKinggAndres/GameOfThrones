@@ -1,88 +1,56 @@
-/* Reset y básicos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1a1a1a;
-    color: #f0f0f0;
-    padding-bottom: 80px;
-}
-
-h2 {
-    margin: 20px;
-    font-size: 24px;
-    color: #e0c97f;
-    text-align: center;
-}
-
-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
     color: #fff;
-    font-weight: bold;
-}
-
-.c-lista {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    padding-bottom: 100px;
+  }
+  
+  main {
     padding: 20px;
-    justify-content: center;
-}
-
-.c-card {
-    background-color: #2b2b2b;
-    border: 1px solid #444;
-    width: calc(45% - 10px);
-    padding: 15px;
     text-align: center;
+  }
+  
+  img {
+    max-width: 200px;
+    margin: 15px auto;
+    display: block;
+  }
+  
+  .c-card {
+    background: #222;
+    border: 1px solid #444;
     border-radius: 10px;
-    transition: transform 0.3s;
-}
-
-.c-card:hover {
-    transform: scale(1.05);
-    background-color: #3a3a3a;
-}
-
-.c-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-.c-nav {
+    padding: 10px;
+    margin: 10px auto;
+    width: 250px;
+  }
+  
+  .c-nav {
     position: fixed;
     bottom: 0;
-    left: 0;
-    background: #333;
     width: 100%;
+    background: #333;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 15px 10px;
-    gap: 10px;
-    z-index: 10;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.6);
-}
-
-.c-nav-item {
-    width: calc(50% - 10px);
-    background-color: #8b0000;
     padding: 10px;
+  }
+  
+  .c-nav-item {
+    background: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
     border-radius: 8px;
-    color: white;
-    text-align: center;
-}
-
-.c-nav-item:hover {
-    background-color: #b22222;
-    color: #ffd700;
-}
+    cursor: pointer;
+  }
+  
+  .c-nav-item:hover {
+    background: #777;
+  }
+  
